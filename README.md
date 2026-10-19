@@ -1,6 +1,6 @@
 # Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory
 
-This website is a central resource for the \*\*Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory\*\* project, undertaken in collaboration with the Yukon Government and the University of British Columbia's Integrated Remote Sensing Studio. It provides tutorials for processing and analysing forest inventory and remote sensing data, alongside practical examples of methods and outputs developed through the project's work packages.
+This website is a central resource for the **Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory** project, undertaken in collaboration with the Yukon Government and the University of British Columbia's Integrated Remote Sensing Studio. It provides tutorials for processing and analysing forest inventory and remote sensing data, alongside practical examples of methods and outputs developed through the project's work packages.
 
 
 
