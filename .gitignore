@@ -1,0 +1,25 @@
+# Based on Quarto Github Pages tutorial: https://quarto.org/docs/publishing/github-pages.html
+/.quarto/
+/_site/
+
+# Ingore data
+data
+**/*.quarto_ipynb
+
+# Ignore the cache
+02_data_cache
+02_data_files
+
+# Code and processed data
+src/log/
+src/data
+**/__pycache__
+*.zip
+**/.jupyter_cache
+**/wandb
+src/train.py
+src/utils/logger.py
+src/test.py
+src/bash_log*.txt
+src/bash_reg_log.txt
+src/bash_cls_log.txt

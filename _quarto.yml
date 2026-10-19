@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+  execute-dir: project
+
+website:
+  title: "Yukon Inventory"
+  description: "Central resource for the Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory project"
+  favicon: "images/logos/irss.png"
+  site-url: https://Brent-Murray.github.io/DeepLearningEFI/
+  repo-url: https://github.com/Brent-Murray/yukon-processing
+  repo-actions: [issue]
+  navbar:
+    logo: "images/logos/irss.png"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Plots
+        href: 01_plot_generation.qmd
+numbering: true
+
+crossref:
+  fig-prefix: "Figure"
+  
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    page-layout: full
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  error: false
+  cache: true
+  fig-num: true
+
+exclude:
+  - "src/"
