@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
   execute-dir: project
+  render:
+    - "*.qmd"
+    - "lidR/*.qmd"
 
 website:
   title: "Yukon Inventory"
@@ -19,6 +22,8 @@ website:
         href: 01_plot_generation.qmd
       - text: lidR
         menu:
+          - text: 0-INTRO
+            href: lidr\0-INTRO.qmd
           - text: 1-LAS
             href: lidr/1-LAS.qmd
           - text: 2-DTM

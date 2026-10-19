@@ -28,25 +28,53 @@
     "text": "Content coming soon."
   },
   {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory",
-    "section": "Overview",
-    "text": "Overview\nThis website is a central resource for the Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory project, undertaken in collaboration with the Yukon Government and the University of British Columbia’s Integrated Remote Sensing Studio. It provides tutorials for processing and analysing forest inventory and remote sensing data, alongside practical examples of methods and outputs developed through the project’s work packages.\nThe project integrates field measurements, satellite imagery, environmental datasets, airborne LiDAR, and drone-based remote sensing to support forest biomass estimation, enhanced forest inventories, and post-fire assessment. The tutorials and examples are intended to document reproducible workflows and support their application to Yukon forest management and planning."
+    "objectID": "lidr/0-INTRO.html",
+    "href": "lidr/0-INTRO.html",
+    "title": "Introduction to lidR for Forest Inventory",
+    "section": "",
+    "text": "This section introduces the use of the lidR R package for processing airborne laser scanning (ALS) data and deriving information relevant to forest inventory. The tutorials are organized as a sequence of independent topics, from reading point-cloud data to area-based and individual-tree approaches."
   },
   {
-    "objectID": "index.html#project-work-packages",
-    "href": "index.html#project-work-packages",
-    "title": "Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory",
-    "section": "Project work packages",
-    "text": "Project work packages\nThe project includes complementary postdoctoral and PhD research components.\n\nPostdoctoral Research: Multiscale Forest Biomass and Inventory Assessment\nThis research focuses on developing a multiscale remote sensing framework that integrates satellite imagery, airborne and drone-based LiDAR, and field observations to improve forest biomass estimation and inventory assessments across Yukon. Through three interconnected work packages, the project aims to provide reliable, spatially explicit information to support carbon accounting, wildfire planning, timber salvage, and sustainable forest management, while developing reproducible workflows for operational use. The work is organized into three work packages:\n\nWork Package 1: Territory-wide biomass mapping\nDevelop a territory-wide forest biomass map using field plot measurements, satellite imagery, topographic and climate information, and predictive modelling. Project resources will cover data preparation, biomass estimation, model validation, uncertainty assessment, and mapping.\n\n\nWork Package 2: Rapid Enhanced Forest Inventory\nDevelop reproducible LiDAR-based workflows for generating forest inventory attributes at finer spatial scales, including approaches that can support assessment of fire-affected forests. Resources will include point-cloud processing, structural metric generation, inventory modelling, and example mapping outputs.\n\n\nWork Package 3: Post-fire stand inventory and assessment\nEvaluate drone-based LiDAR and imagery for characterizing post-fire forest conditions and supporting inventory and salvage planning. Examples will illustrate data acquisition and processing approaches, comparison with field measurements, and assessment of forest structural attributes.\n\n\n\nPhD Research: Multi-Platform LiDAR Quantification of Post-Fire Slash Biomass and Integration into Carbon Accounting and Wildfire Risk Systems in Yukon Boreal Forests\nThe PhD component focuses on quantifying slash pile biomass using multiple LiDAR platforms and integrating post-fire structural information into carbon accounting and wildfire risk assessment. The work is organized into two work packages:\n\nWork Package 1: Multi-Platform Data Acquisition and Structural Assessment\nEstablish representative fire- and harvest-affected study sites across Yukon to evaluate the use of drone LiDAR, airborne LiDAR, and photogrammetry for characterizing slash piles. Ground measurements and three-dimensional point cloud metrics will be used to assess pile structure, volume, and variability across different forest and environmental conditions.\n\n\nWork Package 2: Biomass Estimation and Cross-Platform Transferability\nDevelop and evaluate statistical and machine learning models to estimate slash pile biomass from remotely sensed structural metrics. This work will assess model accuracy, uncertainty, and transferability across LiDAR platforms, with the goal of establishing reproducible workflows and operational guidelines for biomass estimation in Yukon forests."
+    "objectID": "lidr/0-INTRO.html#overview",
+    "href": "lidr/0-INTRO.html#overview",
+    "title": "Introduction to lidR for Forest Inventory",
+    "section": "",
+    "text": "This section introduces the use of the lidR R package for processing airborne laser scanning (ALS) data and deriving information relevant to forest inventory. The tutorials are organized as a sequence of independent topics, from reading point-cloud data to area-based and individual-tree approaches."
   },
   {
-    "objectID": "index.html#tutorials-and-examples",
-    "href": "index.html#tutorials-and-examples",
-    "title": "Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory",
-    "section": "Tutorials and examples",
-    "text": "Tutorials and examples\nTutorials and worked examples will be added as project workflows and datasets become available.\n\nPlot Generation\nLearn how to generate spatially distributed sample plots for forest inventory and biomass modelling. This tutorial covers plot placement, sampling considerations, and the creation of geospatial plot datasets for subsequent analysis. Open the plot generation tutorial.\n\n\nBiomass mapping and modelling\nTutorials coming soon: predictor preparation, model training and validation, biomass mapping, and uncertainty assessment.\n\n\nLiDAR processing and enhanced forest inventory\nTutorials coming soon: point-cloud preparation, structural metrics, inventory modelling, and mapping.\n\n\nPost-fire drone data processing\nTutorials coming soon: drone LiDAR and imagery processing, post-fire structural attributes, and comparison with field observations.\n\n\nSlash pile biomass and multi-platform LiDAR\nTutorials coming soon: slash pile measurements, three-dimensional feature extraction, cross-platform comparison, and biomass estimation."
+    "objectID": "lidr/0-INTRO.html#tutorial-materials",
+    "href": "lidr/0-INTRO.html#tutorial-materials",
+    "title": "Introduction to lidR for Forest Inventory",
+    "section": "Tutorial materials",
+    "text": "Tutorial materials\nThe following pages will be developed as the tutorial progresses. Each currently serves as a placeholder for examples, code, and exercises.\n\n\n\nTutorial\nTopic\n\n\n\n\n1-LAS\nReading, exploring, and filtering LAS/LAZ point clouds\n\n\n2-DTM\nDigital terrain models and height normalization\n\n\n3-CHM\nCanopy height models\n\n\n4-METRICS\nPoint-cloud and canopy metrics\n\n\n5-LASCATALOG\nProcessing collections of LiDAR files\n\n\n6-ROI\nWorking with regions of interest\n\n\n7-ABA\nArea-based approaches to forest inventory\n\n\n8-ITS\nIndividual-tree detection and segmentation"
+  },
+  {
+    "objectID": "lidr/0-INTRO.html#requirements",
+    "href": "lidr/0-INTRO.html#requirements",
+    "title": "Introduction to lidR for Forest Inventory",
+    "section": "Requirements",
+    "text": "Requirements\n\nR and RStudio\nA recent version of R is required. RStudio is recommended for working through the examples.\n\n\nR packages\nInstall lidR to get started:\ninstall.packages(\"lidR\")\nAdditional packages and datasets will be listed within the individual tutorials as needed."
+  },
+  {
+    "objectID": "lidr/0-INTRO.html#resources",
+    "href": "lidr/0-INTRO.html#resources",
+    "title": "Introduction to lidR for Forest Inventory",
+    "section": "Resources",
+    "text": "Resources\n\nOfficial lidR package documentation\nlidRbook\nlidR source code\nGIS Stack Exchange questions tagged lidr"
+  },
+  {
+    "objectID": "lidr/0-INTRO.html#about-lidr",
+    "href": "lidr/0-INTRO.html#about-lidr",
+    "title": "Introduction to lidR for Forest Inventory",
+    "section": "About lidR",
+    "text": "About lidR\nlidR is an open-source R package for analyzing airborne LiDAR point clouds, creating raster products, and extracting forest structure information. The pages in this section focus on its applications to forest inventory. The package was developed at Université Laval in Québec, Canada, and is maintained by Jean-Romain Roussel. The current release is available on CRAN, and its source code is hosted on GitHub."
+  },
+  {
+    "objectID": "lidr/0-INTRO.html#r-lidar",
+    "href": "lidr/0-INTRO.html#r-lidar",
+    "title": "Introduction to lidR for Forest Inventory",
+    "section": "r-lidar",
+    "text": "r-lidar\nThe r-lidar organization supports the continued sustainability of the software and offers training, consulting, and development services. Jean-Romain Roussell is commited to maintaining the lidR packages as fully open source."
   },
   {
     "objectID": "01_plot_generation.html",
@@ -131,6 +159,27 @@
     "title": "Plot Generation and Tree Summaries",
     "section": "8) Outputs",
     "text": "8) Outputs\nThe workflow produces two spatial datasets:\n\n\n\n\n\n\n\nOutput\nDescription\n\n\n\n\nplots.shp\nOne spatial point per plot, derived from the CSV coordinates\n\n\nplots_summary.shp\nSpatial plot points joined to DBH, height, tree count, density, biomass, and volume summaries\n\n\n\nBoth outputs are ESRI Shapefiles. Shapefile attribute names may be shortened because of format limitations; check the exported field names when using the results in subsequent analyses.\nThe resulting plot-level dataset can be used as reference data for subsequent forest inventory and remote sensing analyses."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory",
+    "section": "Overview",
+    "text": "Overview\nThis website is a central resource for the Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory project, undertaken in collaboration with the Yukon Government and the University of British Columbia’s Integrated Remote Sensing Studio. It provides tutorials for processing and analysing forest inventory and remote sensing data, alongside practical examples of methods and outputs developed through the project’s work packages.\nThe project integrates field measurements, satellite imagery, environmental datasets, airborne LiDAR, and drone-based remote sensing to support forest biomass estimation, enhanced forest inventories, and post-fire assessment. The tutorials and examples are intended to document reproducible workflows and support their application to Yukon forest management and planning."
+  },
+  {
+    "objectID": "index.html#project-work-packages",
+    "href": "index.html#project-work-packages",
+    "title": "Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory",
+    "section": "Project work packages",
+    "text": "Project work packages\nThe project includes complementary postdoctoral and PhD research components.\n\nPostdoctoral Research: Multiscale Forest Biomass and Inventory Assessment\nThis research focuses on developing a multiscale remote sensing framework that integrates satellite imagery, airborne and drone-based LiDAR, and field observations to improve forest biomass estimation and inventory assessments across Yukon. Through three interconnected work packages, the project aims to provide reliable, spatially explicit information to support carbon accounting, wildfire planning, timber salvage, and sustainable forest management, while developing reproducible workflows for operational use. The work is organized into three work packages:\n\nWork Package 1: Territory-wide biomass mapping\nDevelop a territory-wide forest biomass map using field plot measurements, satellite imagery, topographic and climate information, and predictive modelling. Project resources will cover data preparation, biomass estimation, model validation, uncertainty assessment, and mapping.\n\n\nWork Package 2: Rapid Enhanced Forest Inventory\nDevelop reproducible LiDAR-based workflows for generating forest inventory attributes at finer spatial scales, including approaches that can support assessment of fire-affected forests. Resources will include point-cloud processing, structural metric generation, inventory modelling, and example mapping outputs.\n\n\nWork Package 3: Post-fire stand inventory and assessment\nEvaluate drone-based LiDAR and imagery for characterizing post-fire forest conditions and supporting inventory and salvage planning. Examples will illustrate data acquisition and processing approaches, comparison with field measurements, and assessment of forest structural attributes.\n\n\n\nPhD Research: Multi-Platform LiDAR Quantification of Post-Fire Slash Biomass and Integration into Carbon Accounting and Wildfire Risk Systems in Yukon Boreal Forests\nThe PhD component focuses on quantifying slash pile biomass using multiple LiDAR platforms and integrating post-fire structural information into carbon accounting and wildfire risk assessment. The work is organized into two work packages:\n\nWork Package 1: Multi-Platform Data Acquisition and Structural Assessment\nEstablish representative fire- and harvest-affected study sites across Yukon to evaluate the use of drone LiDAR, airborne LiDAR, and photogrammetry for characterizing slash piles. Ground measurements and three-dimensional point cloud metrics will be used to assess pile structure, volume, and variability across different forest and environmental conditions.\n\n\nWork Package 2: Biomass Estimation and Cross-Platform Transferability\nDevelop and evaluate statistical and machine learning models to estimate slash pile biomass from remotely sensed structural metrics. This work will assess model accuracy, uncertainty, and transferability across LiDAR platforms, with the goal of establishing reproducible workflows and operational guidelines for biomass estimation in Yukon forests."
+  },
+  {
+    "objectID": "index.html#tutorials-and-examples",
+    "href": "index.html#tutorials-and-examples",
+    "title": "Multi-Scale Biomass Mapping and Timber Assessment in the Yukon Territory",
+    "section": "Tutorials and examples",
+    "text": "Tutorials and examples\nTutorials and worked examples will be added as project workflows and datasets become available.\n\nPlot Generation\nLearn how to generate spatially distributed sample plots for forest inventory and biomass modelling. This tutorial covers plot placement, sampling considerations, and the creation of geospatial plot datasets for subsequent analysis. Open the plot generation tutorial.\n\n\nBiomass mapping and modelling\nTutorials coming soon: predictor preparation, model training and validation, biomass mapping, and uncertainty assessment.\n\n\nLiDAR processing and enhanced forest inventory\nTutorials coming soon: point-cloud preparation, structural metrics, inventory modelling, and mapping.\n\n\nPost-fire drone data processing\nTutorials coming soon: drone LiDAR and imagery processing, post-fire structural attributes, and comparison with field observations.\n\n\nSlash pile biomass and multi-platform LiDAR\nTutorials coming soon: slash pile measurements, three-dimensional feature extraction, cross-platform comparison, and biomass estimation."
   },
   {
     "objectID": "lidr/1-LAS.html",
