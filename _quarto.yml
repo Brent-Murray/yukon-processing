@@ -17,6 +17,24 @@ website:
         href: index.qmd
       - text: Plots
         href: 01_plot_generation.qmd
+      - text: lidR
+        menu:
+          - text: 1-LAS
+            href: lidr/1-LAS.qmd
+          - text: 2-DTM
+            href: lidr/2-DTM.qmd
+          - text: 3-CHM
+            href: lidr/3-CHM.qmd
+          - text: 4-METRICS
+            href: lidr/4-METRICS.qmd
+          - text: 5-LASCATALOG
+            href: lidr/5-LASCATALOG.qmd
+          - text: 6-ROI
+            href: lidr/6-ROI.qmd
+          - text: 7-ABA
+            href: lidr/7-ABA.qmd
+          - text: 8-ITS
+            href: lidr/8-ITS.qmd
 numbering: true
 
 crossref:

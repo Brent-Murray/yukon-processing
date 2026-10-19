@@ -58,12 +58,10 @@ Develop and evaluate statistical and machine learning models to estimate slash p
 
 ## Tutorials and examples
 
-Tutorials and worked examples will be added as project workflows and datasets become available. The links below currently point to placeholder sections on this page; they can later be replaced with links to separate tutorial pages.
+Tutorials and worked examples will be added as project workflows and datasets become available.
 
-- [Biomass mapping and modelling](#tutorials-biomass)
-- [LiDAR processing and enhanced forest inventory](#tutorials-efi)
-- [Post-fire drone data processing](#tutorials-postfire)
-- [Slash pile biomass and multi-platform LiDAR](#tutorials-slash)
+### Plot Generation
+Learn how to generate spatially distributed sample plots for forest inventory and biomass modelling. This tutorial covers plot placement, sampling considerations, and the creation of geospatial plot datasets for subsequent analysis. **[Open the plot generation tutorial](01_plot_generation.qmd).**
 
 ### Biomass mapping and modelling {#tutorials-biomass}
 
